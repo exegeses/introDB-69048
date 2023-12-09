@@ -1,6 +1,6 @@
 # Creación de tablas
 
-> Para cxrear una tabla utilizamos el comando
+> Para crear una tabla utilizamos el comando
 > **CREATE TABLE**
 
 > Sintáxis:

@@ -28,5 +28,5 @@ create table productos
             references categorias (idCategoria),
     prdDescripcion varchar(1000) not null,
     prdImagen varchar(45) not null default('noDisponible.png'),
-    prdActivo boolean default(1)
+    prdActivo boolean default(1) not null
 );
