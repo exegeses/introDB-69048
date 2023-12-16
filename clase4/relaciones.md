@@ -23,9 +23,11 @@
         FROM productos, marcas  
         WHERE productos.idMarca = marcas.idMarca;
 
+
     SELECT destNombre, destPrecio, regNombre  
         FROM destinos, regiones  
         WHERE destinos.idRegion = regiones.idRegion;
+
 
     SELECT prdNombre, prdPrecio, mkNombre, catNombre  
         FROM productos, marcas, categorias  
@@ -68,6 +70,4 @@
           ON marcas.idMarca = productos.idMarca  
         JOIN categorias  
           ON productos.idCategoria = categorias.idCategoria;
-
-
 
