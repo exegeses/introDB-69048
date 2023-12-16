@@ -55,11 +55,19 @@
         JOIN marcas  
           ON productos.idMarca = marcas.idMarca;
 
+
     SELECT destNombre, destPrecio, regNombre  
         FROM destinos  
         JOIN regiones  
           ON destinos.idRegion = regiones.idRegion;
 
+
+SELECT prdNombre, prdPrecio, mkNombre, catNombre
+FROM productos
+JOIN marcas
+ON marcas.idMarca = productos.idMarca
+JOIN categorias
+ON productos.idCategoria = categorias.idCategoria;
 
 
 
